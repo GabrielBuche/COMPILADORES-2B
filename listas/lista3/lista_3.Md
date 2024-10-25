@@ -1,7 +1,8 @@
 # Lista 03
 
 1. **Explique sobre os conflitos que ocorrem em um analisador Shift-Reduce quando a gramática não é LR.**
-    Resposta:
+
+    *Resposta:*
     Um conflito shift-Reduce ocorre quando meu analisador se depara com uma derivação com dois caminhos, podendo tanto ser um deslocamento para o proximo estado (Shift) ou se reduz (reduce).
 
 2. **Gere a gramática estendida da gramática abaixo, construa o autômato LR(0) com a coleção LR(0) canônica e a tabela para análise SLR(1).**
@@ -15,14 +16,14 @@
 
 tabela dos follows
 
-    | S | FOLLOW     |
-    |---|------------|
-    | E | { V }      |
-    | F | { V, & }   |
-    | T | { V, & }   |
+| S | FOLLOW     |
+|---|------------|
+| E | { V }      |
+| F | { V, & }   |
+| T | { V, & }   |
 
 > o autômato LR(0) com a coleção LR(0) canônica
-> a tabela foi criado com base no arquivo [resposta2.pdf](caminho/para/automato_lr0.md)
+> a tabela foi criado com base no arquivo [resposta2.pdf](./resposta_2.pdf)
 > foi criado no draw.io e exportado no formato pdf para facilitar a visualização e criação
 
 tabela para análise SLR(1)
